@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btnbox {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.btnbox a {
+    float: left;
+    display: inline-block;
+}
+
+.btn_drive {
+    width: 65px;
+    height: 30px;
+    vertical-align: top;
+    color: #fff;
+    font-size: 12px;
+    background-color: rgb(0, 146, 216);
+    text-align: center;
+    line-height: 30px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    font-size: 16px;
+    color: #0092d8;
+}
+
+.spec {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    border-bottom: solid;
+    border-bottom-color: #0092d8;
+    padding-bottom: 4px;
+    width: 320px;
+    color: #0092d8;
+}
+
+.left {
+    position: absolute;
+    top: 60px;
+    width: 35%;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    font-size: 14px;
+    color: #000;
+    float: left;
+}
+
+.left h3 {
+    font-size: 13px;
+    border-bottom: 1px dashed #0092d8;
+    text-indent: 8px;
+    line-height: 23px;
+
+}
+
+.right {
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    font-size: 14px;
+    color: #000;
+    float: left;
+}
+
+.right h3 {
+    font-size: 13px;
+    border-bottom: 1px dashed #0092d8;
+    text-indent: 8px;
+    line-height: 23px;
+
+}
+
+.not {
+    position: absolute;
+    left: 0;
+    top: 250px;
+
+}
+
+.not h3 {
+    font-size: 6px;
+    text-indent: 4px;
+    line-height: 15px;
+
+}
+.standard {
+    position: absolute;
+    left: 0;
+    top: 380px;
+    border-bottom: solid;
+    border-bottom-color: #0092d8;
+    padding-bottom: 4px;
+    width: 320px;
+    color: #0092d8;
+}
+.num {
+    position: absolute;
+    left: 0;
+    top: 410px;
+    font-size: 6px;
+    text-indent: 4px;
+    line-height: 15px;
+}
